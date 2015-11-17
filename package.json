@@ -30,5 +30,8 @@
     "lodash.isfunction": "^3.0.6",
     "rimraf": "^2.4.3",
     "should": "^7.1.1"
+  },
+  "dependencies": {
+    "to-decimal-arbitrary-precision": "^1.0.0"
   }
 }

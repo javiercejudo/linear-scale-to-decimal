@@ -2,11 +2,7 @@
 
 'use strict';
 
-function toDecimalFactory(Decimal) {
-  return function toDecimal(n) {
-    return new Decimal(n.toString());
-  };
-}
+var toDecimalFactory = require('to-decimal-arbitrary-precision');
 
 module.exports = function factory(Decimal) {
   var toDecimal = toDecimalFactory(Decimal);
